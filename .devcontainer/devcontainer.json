@@ -1,0 +1,14 @@
+{
+    "name": "nextjs-template",
+    "forwardPorts": [
+        3000
+    ],
+    "extensions": [
+		"bradlc.vscode-tailwindcss"
+	],
+    
+    "build": {
+        "dockerfile": "./dockerfile"
+    },
+    "postCreateCommand": "yarn install --frozen-lockfile"
+}

@@ -1,0 +1,8 @@
+# Package Managers
+/node_modules/
+
+
+# Development
+/.next/
+.env
+.env.*
